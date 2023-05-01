@@ -12,8 +12,8 @@ import {Environment} from '../../config/environment';
  */
 export const connect = (payload: ConnectPayload): Promise<ConnectionSuccessfulPayload> => {
     const popupConfig = {
-        width: 400,
-        height: 400,
+        width: 520,
+        height: 635,
     }
     const url = `${Environment.getInstance().isDebugMode() ? POWERISE_DEV_DOMAIN : POWERISE_DOMAIN}/connect?payload=${btoa(JSON.stringify(payload))}`
 

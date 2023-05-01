@@ -1,6 +1,6 @@
 {
   "name": "@powerise/sdk",
-  "version": "0.1.13",
+  "version": "0.1.15",
   "description": "The Powerise JavaScript SDK",
   "main": "build/index.js",
   "types": "build/types/index.d.ts",
